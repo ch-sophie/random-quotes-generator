@@ -27,14 +27,14 @@ class App extends React.Component {
         // quote
         const{advice} = this.state;
         // get date 
-        const current = new Date();
-        const time = `${current.getHours()}:${current.getMinutes()}`;
+        const d = new Date();
+        const time = `${d.getHours()}:${d.getMinutes()}`;
         return (
             
             <div className='app'>
                 <div className='card'>
                     <h1>{time}</h1>
-                    <h2 class="greeting">{current.getHours()  < 12 ? "Good morning" : "Good evening"}</h2>
+                    <h2 class="greeting">{d.getHours() < 12 ? "Good morning" : d.getHours() < 17 ? "Good afternoon" : "Good evening"}</h2>
                     <h2 className='heading'><q> {advice} </q></h2>
                     <button className='button' onClick={this.fetchAdvice}>
                         <span>New  quote</span>
