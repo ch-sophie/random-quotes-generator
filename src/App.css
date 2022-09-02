@@ -45,8 +45,8 @@ h1{
     font-weight: 700;
 }
 h2{
-    font-size: x-large;
-    font-weight: 600;
+    font-size: xx-large;
+    font-weight:600;
 }
 
 @media screen and (max-width:450px){
