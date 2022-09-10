@@ -41,12 +41,12 @@ h1{
     font-size: xxx-large;
 }
 .greeting{
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 700;
 }
 h2{
     font-size: xx-large;
-    font-weight:600;
+    font-weight:700;
 }
 
 @media screen and (max-width:450px){
