@@ -1,7 +1,11 @@
-# random-quotes-generator
-### A random quotes generator using React JS   
-Dependencies: 
+# A random quotes generator
+
+## The mission:  
+Build a random quote machine using a framework - React JS
+
+#### Dependencies installed: 
 -  axios
 - moment  
 
-Link: https://ch-sophie.github.io/random-quotes-generator/ 
+#### Project deployed via gh-pages:  
+https://ch-sophie.github.io/random-quotes-generator/ 
