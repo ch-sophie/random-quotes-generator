@@ -1,10 +1,15 @@
 # A random quotes generator
 
-## The mission:  
-Build a random quote machine using a framework - React JS
+
+### The mission:
+Make a random quotes generator that displays a random quote to the user every time they press a button.    
+I added the time and a greeting according to the time, if it is the morning or the afternoon.
+
+**Framework used: React JS** 
+
 
 #### Dependencies installed: 
--  axios
+- axios  
 - moment  
 
 #### Project deployed via gh-pages:  
