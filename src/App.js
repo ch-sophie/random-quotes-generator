@@ -27,15 +27,11 @@ class App extends React.Component {
     render() {
         // quote
         const{advice} = this.state;
-        // get date 
-        // const d = new Date();
-        // const time = `${d.getHours()}:${d.getMinutes()}`;
 
         return (
             
             <div className='app'>
                 <div className='card'>
-                    {/* <h1>{time}</h1> */}
                     
                     <h1>{moment().format("HH:mm")}</h1>
                     <h2 class="greeting">{moment().format("HH") < 12 ? "Good morning" : moment().format("HH") < 17 ? "Good afternoon" : "Good evening"}</h2>

@@ -27,11 +27,12 @@
     background-color: #f6ae2d;
     color: #fff;
     border: 2px solid #f6ae2d;
-    padding: 5px;
+    padding: 10px;
     opacity: 0.8;
     cursor: pointer;
     font-family: 'Open sans', sans-serif;
     font-weight: 500;
+    font-size: medium;
 }
 .button:hover{
     transition: 0.6s;
@@ -50,6 +51,9 @@ h2{
 }
 
 @media screen and (max-width:450px){
+    body{
+        overflow: auto;
+    }
     h1{
         font-size: xx-large;
     }
