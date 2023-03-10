@@ -25,14 +25,12 @@ class App extends React.Component {
     }
 
     render() {
-        // quote
+        // get quote
         const{advice} = this.state;
 
         return (
-            
             <div className='app'>
                 <div className='card'>
-                    
                     <h1>{moment().format("HH:mm")}</h1>
                     <h2 class="greeting">{moment().format("HH") < 12 ? "Good morning" : moment().format("HH") < 17 ? "Good afternoon" : "Good evening"}</h2>
                     <h2 className='heading'><q> {advice} </q></h2>

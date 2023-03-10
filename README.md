@@ -3,7 +3,7 @@
 ### The mission:
 Make a random quotes generator that displays a random quote to the user every time they press a button.  
   
-I added the time (with moment) and a greeting according to the time, if it is the morning or the afternoon.
+I added the time and a greeting according to the time, if it is the morning or the afternoon.
 
 **Framework used: React JS** 
 
@@ -17,4 +17,4 @@ I added the time (with moment) and a greeting according to the time, if it is th
 **https://ch-sophie.github.io/random-quotes-generator/**  
 
 #### Preview:
-![Home page](image1.png "Home page")
+![Home page](image2.png "Home page")
